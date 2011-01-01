@@ -1,0 +1,241 @@
+/* 
+GeSHi (c) Nigel McNie 2004 (http://qbnz.com/highlighter)
+Color scheme created by Nando Vieira (http://simplesideias.com.br), with little modifications
+*/
+.igBar { 
+	display: none !important;
+}
+.syntax_hilite, li .syntax_hilite {
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border: 0px !important; 
+	background: #000 !important;
+	color: #fff;
+	font: 12px monaco, monospace, courier, 'courier new' !important;
+	margin: 10px 0;
+}
+.syntax_hilite { 
+	width: auto !important; 
+	padding: 10px !important;
+	clear: both !important;
+}
+li .syntax_hilite { 
+	width:auto !important; 
+	display: block;
+}
+
+.actionscript .imp {font-weight: bold; color: red;}
+.actionscript .kw1 {color: #DE761F;}
+.actionscript .kw2 {color: #fff;}
+.actionscript .kw3 {color: #E92926;} 
+.actionscript .co1 {color: #AF24D5; }
+.actionscript .co2 {color: #fff; }
+.actionscript .coMULTI {color: #fff;}
+.actionscript .es0 {color: #24CF07;}
+.actionscript .br0 {color: #fff;} 
+.actionscript .st0 {color: #24CF07;}
+.actionscript .nu0 {color: #0085D0;}
+.actionscript .me1 {color: #fff;} 
+
+.apache .imp { color: red;}
+.apache .kw1 {color: #00007f;}
+.apache .kw2 {color: #0000ff;}
+.apache .co1 {color: #aeaeae;}
+.apache .es0 {color: #000099; }
+.apache .br0 {color: #66cc66;}
+.apache .st0 {color: #00d42d;}
+.apache .nu0 {color: #c8fd1b;}
+
+.bash .imp { color: red;}
+.bash .kw1 {color: #fff;}
+.bash .kw3 {color: #fff;}
+.bash .co1 {color: #aeaeae;}
+.bash .es0 {color: #000099; }
+.bash .br0 {color: #66cc66;}
+.bash .st0 {color: #00d42d;}
+.bash .nu0 {color: #c8fd1b;}
+.bash .re0 {color: #0000ff;}
+.bash .re1 {color: #fff;}
+.bash .re2 {color: #fff;}
+
+.css .imp { color: red;}
+.css .kw1 {color: #83a4cf; }
+.css .kw2 {color: #83a4cf;}
+.css .co1 {color: #aeaeae;}
+.css .coMULTI {color: #aeaeae;}
+.css .es0 {color: #000099; }
+.css .br0 {color: #fff;}
+.css .st0 {color: #00d42d;}
+.css .nu0 {color: #c8fd1b;}
+.css .re0 {color: #83a4cf;}
+.css .re1 {color: #83a4cf;}
+.css .re2 {color: #83a4cf;}
+
+.diff .imp { color: red;}
+.diff .kw1 {color: #aaaaaa; font-style: italic;}
+.diff .kw2 {color: #dd6611;}
+.diff .re0 {color: #440088;}
+.diff .re1 {color: #991111;}
+.diff .re2 {color: #00b000;}
+.diff .re3 {color: #888822;}
+.diff .re4 {color: #888822;}
+.diff .re5 {color: #0011dd;}
+.diff .re6 {color: #440088;}
+.diff .re7 {color: #991111;}
+.diff .re8 {color: #00b000;}
+.diff .re9 {color: #888822;}
+
+.html .imp { color: red;}
+.html .kw1 {color: #b1b100;}
+.html .kw2 {color: #798fab; }
+.html .kw3 {color: #798fab;}
+.html .coMULTI {color: #aeaeae;}
+.html .es0 {color: #00d42d; }
+.html .br0 {color: #fff;}
+.html .st0 {color: #00d42d;}
+.html .nu0 {color: #cc66cc;}
+.html .sc0 {color: #00bbdd;}
+.html .sc1 {color: #ddbb00;}
+.html .sc2 {color: #798fab;}
+
+.ini .imp { color: red;}
+.ini .co0 {color: #aeaeae;}
+.ini .br0 {color: #000066; font-weight:bold;}
+.ini .st0 {color: #00d42d;}
+.ini .re0 {color: #000066; font-weight:bold;}
+.ini .re1 {color: #000099;}
+.ini .re2 {color: #660066;}
+
+.java .imp { color: red;}
+.java .kw1 {color: #b1b100;}
+.java .kw2 {color: #000000; }
+.java .kw3 {color: #aaaadd; }
+.java .kw4 {color: #993333;}
+.java .co1 {color: #aeaeae;}
+.java .co2 {color: #aeaeae;}
+.java .coMULTI {color: #aeaeae;}
+.java .es0 {color: #000099; }
+.java .br0 {color: #66cc66;}
+.java .st0 {color: #00d42d;}
+.java .nu0 {color: #cc66cc;}
+.java .me1 {color: #006600;}
+.java .me2 {color: #006600;}
+
+.javascript .imp { color: red;}
+.javascript .kw1 {color: #ffdf00; }
+.javascript .kw2 {color: #ffdf00; }
+.javascript .kw3 {color: #ffdf00;}
+.javascript .co1 {color: #aeaeae;}
+.javascript .coMULTI {color: #aeaeae;}
+.javascript .es0 {color: #000099; }
+.javascript .br0 {color: #fff;}
+.javascript .st0 {color: #00d42d;}
+.javascript .nu0 {color: #c8fd1b;}
+.javascript .me1 {color: #83a4cf;}
+.javascript .re0 {color: #0066FF;}
+
+.mysql .imp { color: red;}
+.mysql .kw1 {color: #ffdf00; }
+.mysql .kw2 {color: #ffdf00; }
+.mysql .kw3 {color: #ffdf00; }
+.mysql .kw4 {color: #ffdf00; }
+.mysql .kw5 {color: #993333; }
+.mysql .coMULTI {color: #aeaeae;}
+.mysql .co1 {color: #aeaeae;}
+.mysql .co2 {color: #aeaeae;}
+.mysql .es0 {color: #000099; }
+.mysql .br0 {color: #66cc66;}
+.mysql .st0 {color: #00d42d;}
+.mysql .nu0 {color: #c8fd1b;}
+
+.perl .imp { color: red;}
+.perl .kw1 {color: #b1b100;}
+.perl .kw2 {color: #000000; }
+.perl .kw3 {color: #000066;}
+.perl .co1 {color: #aeaeae;}
+.perl .coMULTI {color: #aeaeae;}
+.perl .es0 {color: #000099; }
+.perl .br0 {color: #66cc66;}
+.perl .st0 {color: #00d42d;}
+.perl .nu0 {color: #cc66cc;}
+.perl .me1 {color: #006600;}
+.perl .me2 {color: #006600;}
+.perl .re0 {color: #0000ff;}
+.perl .re4 {color: #009999;}
+
+.php .imp { color: red;}
+.php .kw1 {color: #b1b100;}
+.php .kw2 {color: #ffdf00; }
+.php .kw3 {color: #fff;}
+.php .co1 {color: #aeaeae;}
+.php .co2 {color: #aeaeae;}
+.php .coMULTI {color: #aeaeae;}
+.php .es0 {color: #00d42d; }
+.php .br0 {color: #fff;}
+.php .st0 {color: #00d42d;}
+.php .nu0 {color: #c8fd1b;}
+.php .me1 {color: #83a4cf;}
+.php .me2 {color: #83a4cf;}
+.php .re0 {color: #fff;}
+
+.rails .imp { color: red;}
+.rails .kw1 {color:#ffdf00;}
+.rails .kw2 {color:#ffdf00;}
+.rails .kw3 {color:#fff;}
+.rails .kw4 {color:#fff;}
+.rails .kw5 {color:#ffdf00;}
+.rails .co1 {color:#aeaeae;}
+.rails .coMULTI {color:#aeaeae;}
+.rails .es0 {color:#00d42d;}
+.rails .br0 {color:#fff;}
+.rails .st0 {color: #00d42d;}
+.rails .nu0 {color:#c8fd1b;}
+.rails .me1 {color:#83a4cf;}
+.rails .re0 {color:#ff6633;}
+.rails .re1 {color:#fff;}
+.rails .re2 {color:#ff5a00;}
+.rails .re3 {color:#c8fd1b;}
+
+.ruby .imp { color: red;}
+.ruby .kw1 {color:#ffdf00;}
+.ruby .kw2 {color:#ffdf00;}
+.ruby .kw3 {color:#fff;}
+.ruby .kw4 {color:#fff;}
+.ruby .kw5 {color:#ffdf00;}
+.ruby .co1 {color:#aeaeae;}
+.ruby .coMULTI {color:#aeaeae;}
+.ruby .es0 {color:#00d42d;}
+.ruby .br0 {color:#fff;}
+.ruby .st0 {color: #00d42d;}
+.ruby .nu0 {color:#c8fd1b;}
+.ruby .me1 {color:#83a4cf;} 
+.ruby .re0 {color:#ff6633;}
+.ruby .re1 {color:#fff;}
+.ruby .re2 {color:#ff5a00;}
+.ruby .re3 {color:#c8fd1b;}
+
+.sql .imp { color: red;}
+.sql .kw1 {color: #ffdf00; }
+.sql .co1 {color: #aeaeae;}
+.sql .co2 {color: #aeaeae;}
+.sql .coMULTI {color: #aeaeae;}
+.sql .es0 {color: #000099; }
+.sql .br0 {color: #66cc66;}
+.sql .st0 {color: #00d42d;}
+.sql .nu0 {color: #c8fd1b;}
+
+.text .imp { color: red;}
+
+.xml .imp { color: red;}
+.xml .coMULTI {color: #aeaeae;}
+.xml .es0 {color: #00d42d; }
+.xml .br0 {color: #66cc66;}
+.xml .st0 {color: #00d42d;}
+.xml .nu0 {color: #c8fd1b;}
+.xml .sc0 {color: #00bbdd;}
+.xml .sc1 {color: #ddbb00;}
+.xml .sc2 {color: #339933;}
+.xml .sc3 {color: #798fab;}
+.xml .re0 {color: #798fab;}
+.xml .re1 { color: #798fab;}
+.xml .re2 { color: #798fab;}

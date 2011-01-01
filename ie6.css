@@ -1,0 +1,19 @@
+* html #header {
+	position: absolute;
+    top: expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+0+"px" : body.scrollTop+0+"px");
+}
+
+* html #menu {
+    position: absolute;
+    top: expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+50+"px" : body.scrollTop+50+"px");
+}
+
+* html #menu ul {
+	left: 0;
+	position: absolute;
+}
+
+.post .triangle {
+	display: none;
+}
+
